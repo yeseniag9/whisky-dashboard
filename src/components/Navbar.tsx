@@ -28,12 +28,12 @@ function Navbar() {
     }
 
     return (
-        <nav className="flex items-center flex-wrap bg-teal-500 p-6">
+        <nav className="flex items-center flex-wrap bg-amber-600 p-6">
             <div className="flex items-center flex-shrink-0 text-white mr-6">
                 <Link to="/" className="font-semibold text-xl tracking-tight">Drink</Link> 
             </div>
             <div className="block">
-                <button onClick={dropDown} className="flex items-center px-3 py-2 text-orange-400 border rounded border-orange-400 hover:text-white hover:border-white">
+                <button onClick={dropDown} className="flex items-center px-3 py-2 text-black border rounded border-black hover:text-white hover:border-white">
                     <i className="fas fa-bars"></i>
                 </button>
             </div>
@@ -42,21 +42,21 @@ function Navbar() {
                     <div className="flex flex-row text-sm lg:flex-grow">
                         <Button className="p-3 m-5 bg-black justify-center rounded-lg">
                             <div>
-                                <Link to="/" onClick={ clicked } className="flex place-items-center mt-4 pl-4 lg:inline-block lg:mt-0 text-orange-400 hover:text-white mr-4">
+                                <Link to="/" onClick={ clicked } className="flex place-items-center mt-4 pl-4 lg:inline-block lg:mt-0 text-zinc-400 hover:text-white mr-4">
                                     Home
                                 </Link>
                             </div>
                         </Button>
                         <Button className="p-3 m-5 bg-black justify-center rounded-lg">
                             <div>
-                                <Link to="/contact" onClick={ clicked } className="flex place-items-center mt-4  pl-4 lg:inline-block lg:mt-0 text-orange-400 hover:text-white mr-4">
+                                <Link to="/contact" onClick={ clicked } className="flex place-items-center mt-4  pl-4 lg:inline-block lg:mt-0 text-zinc-400 hover:text-white mr-4">
                                     Car
                                 </Link>
                             </div>
                         </Button>
                         <Button className="p-3 m-5 bg-black justify-center rounded-lg">
                             <div>
-                                <Link to="/dashboard" onClick={ clicked } className="flex place-items-center mt-4 pl-4 lg:inline-block lg:mt-0 text-orange-400 hover:text-white mr-4">
+                                <Link to="/dashboard" onClick={ clicked } className="flex place-items-center mt-4 pl-4 lg:inline-block lg:mt-0 text-zinc-400 hover:text-white mr-4">
                                     Dashboard
                                 </Link>
                             </div>
@@ -66,7 +66,7 @@ function Navbar() {
 
                             <Button className="p-3 m-5 bg-black justify-center rounded-lg">
                                 <div>
-                                    <Link to="/" onClick={ () => { signInOnClick()}} className="flex place-items-center mt-4 pl-4 pr-4 lg:inline-block lg:mt-0 text-orange-400 hover:text-white">
+                                    <Link to="/" onClick={ () => { signInOnClick()}} className="flex place-items-center mt-4 pl-4 pr-4 lg:inline-block lg:mt-0 text-zinc-400 hover:text-white">
                                         Login
                                     </Link>
                                 </div>
@@ -74,7 +74,7 @@ function Navbar() {
                             :
                             <Button className="p-3 m-5 bg-black justify-center rounded-lg">
                                 <div>
-                                    <Link to="/" onClick={ () => { signOutOnClick()}} className="flex place-items-center mt-4 pl-4 pr-4 lg:inline-block lg:mt-0 text-orange-400 hover:text-white">
+                                    <Link to="/" onClick={ () => { signOutOnClick()}} className="flex place-items-center mt-4 pl-4 pr-4 lg:inline-block lg:mt-0 text-zinc-400 hover:text-white">
                                         Logout
                                     </Link>
                                 </div>
