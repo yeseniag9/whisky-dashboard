@@ -49,8 +49,8 @@ function Navbar() {
                         </Button>
                         <Button className="p-3 m-5 bg-black justify-center rounded-lg">
                             <div>
-                                <Link to="/contact" onClick={ clicked } className="flex place-items-center mt-4  pl-4 lg:inline-block lg:mt-0 text-zinc-400 hover:text-white mr-4">
-                                    Car
+                                <Link to="/whisky" onClick={ clicked } className="flex place-items-center mt-4  pl-4 lg:inline-block lg:mt-0 text-zinc-400 hover:text-white mr-4">
+                                    Whisky
                                 </Link>
                             </div>
                         </Button>

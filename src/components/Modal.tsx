@@ -33,7 +33,7 @@ const Modal = ( props: Props ) => {
                 </div>
             </div>
         </div>
-    )
+    ) 
 }
 
 export default Modal

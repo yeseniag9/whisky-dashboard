@@ -1,8 +1,8 @@
 export const firebaseConfig = {
-  apiKey: "AIzaSyA8Cfa42DEDXqXdogzDkg-liCN96ZdyrkY",
-  authDomain: "react-whiskydashboard.firebaseapp.com",
-  projectId: "react-whiskydashboard",
-  storageBucket: "react-whiskydashboard.appspot.com",
-  messagingSenderId: "829765278739",
-  appId: "1:829765278739:web:d5c7ffe80a13f3086073e6"
+  apiKey: "AIzaSyDqN2oTD0cTr_6nNJ91wOlFw8yVN0sjV7I",
+  authDomain: "whisky-dashboard.firebaseapp.com",
+  projectId: "whisky-dashboard",
+  storageBucket: "whisky-dashboard.appspot.com",
+  messagingSenderId: "179444650045",
+  appId: "1:179444650045:web:db687a82917460fb7cda54"
 };
