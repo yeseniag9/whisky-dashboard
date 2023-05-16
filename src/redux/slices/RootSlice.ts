@@ -4,13 +4,13 @@ const rootSlice = createSlice({
     name: "root",
     initialState: {
         name: "Name",
-        country: "Country",
+        country_origin: "Country",
         type: "Type",
         abv: "ABV"
     },
     reducers: { 
         chooseName: (state, action) => { state.name = action.payload }, 
-        chooseCountry: (state, action) => { state.country = action.payload }, 
+        chooseCountry: (state, action) => { state.country_origin = action.payload }, 
         chooseType: (state, action) => { state.type = action.payload }, 
         chooseABV: (state, action) => { state.abv = action.payload }
     }

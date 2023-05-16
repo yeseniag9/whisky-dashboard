@@ -26,7 +26,7 @@ const WhiskyForm = (props:WhiskyFormProps) => {
       event.target.reset()
     } else {
       dispatch(chooseName(data.name))
-      dispatch(chooseCountry(data.country))
+      dispatch(chooseCountry(data.country_origin))
       dispatch(chooseType(data.type))
       dispatch(chooseABV(data.abv))
 
@@ -36,27 +36,27 @@ const WhiskyForm = (props:WhiskyFormProps) => {
   }
 
   return (
-    <div>
+    <div className="pb-6">
       <form onSubmit={handleSubmit(onSubmit)}>
         <div>
           <label htmlFor="name">Whisky Name</label> 
           <Input {...register('name')} name="name" placeholder="Name" />
         </div>
-        <div>
-          <label htmlFor="country">Country Origin</label> 
-          <Input {...register('country')} name="country" placeholder="Country" />
+        <div className="pt-3">
+          <label htmlFor="country_origin">Country Origin</label> 
+          <Input {...register('country_origin')} name="country_origin" placeholder="Country" />
         </div>
-        <div>
+        <div className="pt-3">
           <label htmlFor="type">Type</label> 
           <Input {...register('type')} name="type" placeholder="Type" />
         </div>
-        <div>
+        <div className="pt-3">
           <label htmlFor="abv">ABV</label> 
           <Input {...register('abv')} name="abv" placeholder="ABV" />
         </div>
-        <div className="flex p-1">
+        <div className="flex justify-center">
         <Button 
-          className="flex justify-start m-g bg-slate-300 p-2 rounded hover:bg-slate-800 text-white"
+          className="flex mb-12 bg-amber-600 p-2 pl-7 pr-7 rounded hover:bg-slate-800 text-white mt-10"
           >
             Submit
           </Button>
